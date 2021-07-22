@@ -2080,14 +2080,14 @@ public interface ClientInterface extends ClientInterfaceNew {
 	 * @return
 	 * @throws ElasticSearchException
 	 */
-	public abstract String getTempate(String template) throws ElasticSearchException ;
+	public abstract String getTemplate(String template) throws ElasticSearchException ;
 	
 	/**
 	 * 查询所有模板
 	 * @return
 	 * @throws ElasticSearchException
 	 */
-	public abstract String getTempate() throws ElasticSearchException ;
+	public abstract String getTemplate() throws ElasticSearchException ;
 
 	/**
 	 * 删除所有xpack相关的监控索引

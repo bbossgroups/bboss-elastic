@@ -43,7 +43,7 @@ public class TransportClientUtil  implements EventClientUtil{
 	 * @return
 	 * @throws ElasticSearchException
 	 */
-	public   String getTempate(String template) throws ElasticSearchException {
+	public   String getTemplate(String template) throws ElasticSearchException {
 		return null;
 	}
 	
@@ -52,7 +52,7 @@ public class TransportClientUtil  implements EventClientUtil{
 	 * @return
 	 * @throws ElasticSearchException
 	 */
-	public   String getTempate() throws ElasticSearchException {
+	public   String getTemplate() throws ElasticSearchException {
 		return null;
 	}
 
